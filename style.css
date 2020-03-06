@@ -25,6 +25,8 @@
   background-color: #FF0000;
   height: 200px;
   width: 200px;
+  position: relative;
+  top: 10px;
   margin-bottom: 10px;
 }
 
