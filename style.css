@@ -33,16 +33,16 @@
  text-align: center; 
 } 
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .column{
     height: 400px;
   }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .box{
     width: 200px;
     border-radius: 8px;
   }
- @media screen and (max-width: 900px) {
+ @media screen and (min-width: 900px) {
    .topnav a {
      float: right;
    }
@@ -50,14 +50,10 @@
      text-align: left;
    }
    
- @media screen and (max-width: 1080px) {
+ @media screen and (min-width: 1080px) {
    .box {
      width: 100px;
      height: 100px;
    }
    
-  @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-   }
+
