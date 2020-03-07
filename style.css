@@ -49,6 +49,10 @@
    .column {
      text-align: left;
    }
+   <div class="dropdown">
+    <div class="dropdown-content">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
  @media screen and (max-width: 1080) {
    .box {
      width: 100px;
