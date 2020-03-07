@@ -48,10 +48,11 @@
    .topnav a {
      float: right;
    }
-}
+
    .column {
      text-align: left;
    }
+}
    
  @media screen and (max-width: 1080px) {
    .box {
