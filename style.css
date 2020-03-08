@@ -21,12 +21,25 @@
   background-color: #FF0000;
   color: red;
 }
-.box {
+.box1 {
   background-color: #FF0000;
-  height: 200px;
+  height: 100px;
+  width: 100px;
   position: relative;
   top: 10px;
   margin-bottom: 10px;
+}
+.box2 {
+  background-color: #FF0000;
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+.box3{
+  background-color: #FF0000;
+  height: 100px;
+  width: 100px;
+  position: relative;
 }
   .column { 
  height: 300px;  
@@ -55,9 +68,19 @@
 }
    
  @media screen and (max-width: 1080px) {
-   .box {
+   .box1 {
      width: 100px;
    }
-}
+   .box2 {
+     width: 100px;
+     left: 120px;
+  bottom: 100px;
+  margin-bottom: 10px;
+   .box3 {
+     width: 100px;
+      left: 240px;
+  bottom: 210px;
+   }
+   }
    
 
