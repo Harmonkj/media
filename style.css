@@ -24,7 +24,6 @@
 .box1 {
   background-color: #FF0000;
   height: 100px;
-  width: 100px;
   position: relative;
   top: 10px;
   margin-bottom: 10px;
@@ -32,14 +31,12 @@
 .box2 {
   background-color: #FF0000;
   height: 100px;
-  width: 100px;
   position: relative;
   margin-bottom: 10px;
 }
 .box3{
   background-color: #FF0000;
   height: 100px;
-  width: 100px;
   position: relative;
   margin-bottom: 10px;
 }
